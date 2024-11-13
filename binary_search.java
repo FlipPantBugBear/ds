@@ -22,22 +22,39 @@ public class binary_search {
         System.out.println("The sorted array:");
         for (int j = 0; j < a; j++) {
             System.out.println(n[j]);
-        }        
-
-        System.out.println("Enter the number to be searched : ");
-        int b = s.nextInt();
-        int mid=0;
-        for(int i=0;i<a;i++){
-            mid = n[i]/2;
-        }
-        for(int i=0;i<a;i++){
-            if(b > mid){
-                for(int j=mid;j>a;j++){
-                    if(n[i]==b){
-                        System.out.println("IS in array"+n[j]);
-                    }
-                }
-            }
-        }
+        } 
+        // System.out.println("Enter the number to be searched");
+        // int d = s.nextInt();
+        // int low =0,top=a-1;
+        // while(low <= top){
+        //     int mid = (low+top)/2;
+        //     if(n[mid] == d){
+        //         System.out.println("Number found "+mid);
+        //         break;
+        //     }
+        //     else if(n[mid] < d){
+        //         low = mid+1;
+        //         System.out.println("Number : "+n[mid]);
+        //         break;
+        //     }
+        //     else{
+        //         low = mid-1;
+        //     }
+        // }        
+        // System.out.println("Enter the number to be searched : ");
+        // int b = s.nextInt();
+        // int mid=0;
+        // for(int i=0;i<a;i++){
+        //     mid = n[i]/2;
+        // }
+        // for(int i=0;i<a;i++){
+        //     if(b > mid){
+        //         for(int j=mid;j>a;j++){
+        //             if(n[i]==b){
+        //                 System.out.println("IS in array"+n[j]);
+        //             }
+        //         }
+        //     }
+        // }
     } 
 }
